@@ -1,13 +1,25 @@
 {
-  "name": "weathertoday",
+  "name": "weatherbot2.0",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "devDependencies: nodemon index.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "type": "commonjs"
+  "type": "commonjs",
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  },
+  "dependencies": {
+    "axios": "^1.16.0",
+    "dotenv": "^17.4.2",
+    "grammy": "^1.42.0",
+    "moment-timezone": "^0.6.2",
+    "mongodb": "^7.2.0",
+    "mongoose": "^9.6.1",
+    "node-cron": "^4.2.1"
+  }
 }
